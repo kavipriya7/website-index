@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gadget Hub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Gadget Store</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#" id="cart">Cart (<span id="cart-count">0</span>)</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Available Gadgets</h2>
+        <div class="product-list">
+            <div class="product" data-name="Smartphone" data-price="299">
+                <img src="phone.jpg" alt="Smartphone">
+                <h3>Smartphone</h3>
+                <p>Price:  ₹29999</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-name="Tablet" data-price="199">
+                <img src="tablet.webp" alt="Tablet">
+                <h3>Tablet</h3>
+                <p>Price:  ₹19999</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-name="Laptop" data-price="799">
+                <img src="laptop.jpg" alt="Laptop">
+                <h3>Laptop</h3>
+                <p>Price:  ₹79999</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-name="Smartwatch" data-price="199">
+                <img src="watch.jpg" alt="Smartwatch">
+                <h3>Smartwatch</h3>
+                <p>Price:  ₹1999</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+            <div class="product" data-name="Bluetooth Speaker" data-price="79">
+                <img src="speaker.jpg" alt="Bluetooth Speaker">
+                <h3>Bluetooth Speaker</h3>
+                <p>Price:  ₹799</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Gadget Store. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
